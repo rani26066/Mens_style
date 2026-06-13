@@ -320,7 +320,7 @@ function App() {
           Cart: {cart.length}
         </a>
       </nav>
-
+       
       <section className="hero">
         <h2>Men's wear</h2>
         <p>Trendy and comfortable men’s wear for every occasion.</p>
@@ -384,10 +384,34 @@ function App() {
           )}
 
           <h3>Total: ₹{totalAmount}</h3>
-        </aside>
-        
-      </main>
-      
+        </aside>  
+      </main>     
+      <section className="about-101">
+      <div className="about-102">
+        <div className="about-103">
+          <h2>About Our Men's Wear Website</h2>
+          <p>
+            Welcome to our car buying platform. We help customers find the best
+            new and used cars with trusted details, clear pricing, and easy
+            booking options.
+          </p>
+          <p>
+            latest men’s fashion collections including casual wear, 
+            formal wear, party wear, sportswear, and accessories. Our 
+            men’s wear website offers stylish, comfortable, and affordable 
+            outfits for every occasion.
+          </p>
+
+          <button className="about-104">Explore Cars</button>
+        </div>
+
+        <div className="about-105">
+          <img src={photo1} alt="About" className="about-106" />
+          <img src={photo2} alt="About" className="about-107" />
+          <img src={photo3} alt="About" className="about-108" />
+        </div>
+      </div>
+    </section> 
       <footer className="footer">
   <p>© 2026 SRK Shop | Created by Sakthi,Kannams,Rani</p>
 </footer>
