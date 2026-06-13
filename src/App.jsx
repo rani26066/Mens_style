@@ -31,6 +31,9 @@ import product29 from "./assets/Jeans/product29.jpeg";
 import product30 from "./assets/Jeans/product30.jpeg";
 import product31 from "./assets/Jeans/product31.jpeg";
 import product32 from "./assets/Jeans/product32.jpeg";
+import sakthi from "./assets/sakthi.jpeg";
+import kannams from "./assets/kannams.jpeg";
+
 function App() {
   // Products are added directly in code. No Add Product form/card is shown.
   const [products] = useState([
@@ -406,9 +409,9 @@ function App() {
         </div>
 
         <div className="about-105">
-          <img src={sakthi.jpeg} alt="About" className="about-106" />
-          <img src={Rani.jpeg} alt="About" className="about-107" />
-          <img src={kannams.jpeg} alt="About" className="about-108" />
+          <img src={sakthi} alt="sakthi" className="about-106" />
+          <img src={rani} alt="rani" className="about-107" />
+          <img src={kannams} alt="kannams" className="about-108" />
         </div>
       </div>
     </section> 
