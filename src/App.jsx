@@ -406,9 +406,9 @@ function App() {
         </div>
 
         <div className="about-105">
-          <img src={sakthi} alt="sakthi" className="about-106" />
-          <img src={Rani} alt="Rani"  className="about-107" />
-          <img src={kannama} alt="kannama"  className="about-108" />
+          <img src={sakthi.jpeg} alt="About" className="about-106" />
+          <img src={Rani.jpeg} alt="About" className="about-107" />
+          <img src={kannama.jpeg} alt="About" className="about-108" />
         </div>
       </div>
     </section> 
