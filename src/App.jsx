@@ -405,7 +405,7 @@ function App() {
             outfits for every occasion.
           </p>
 
-          <button className="about-104">Explore Cars</button>
+          <button className="about-104">Explore Collection</button>
         </div>
 
         <div className="about-105">
