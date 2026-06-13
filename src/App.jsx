@@ -402,13 +402,13 @@ function App() {
             outfits for every occasion.
           </p>
 
-          <button className="about-104">Explore Cars</button>
+          <button className="about-104">Explore Collection</button>
         </div>
 
         <div className="about-105">
-          <img src="sakthi.jpeg"  className="about-106" />
-          <img src="Rani.jpeg"  className="about-107" />
-          <img src="kannama.jpeg"  className="about-108" />
+          <img src={sakthi} alt="sakthi" className="about-106" />
+          <img src={Rani} alt="Rani"  className="about-107" />
+          <img src={kannama} alt="kannama"  className="about-108" />
         </div>
       </div>
     </section> 
