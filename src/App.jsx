@@ -385,7 +385,7 @@ function App() {
 
           <h3>Total: ₹{totalAmount}</h3>
         </aside>  
-      </main>     
+      </main>
       <section className="about-101">
       <div className="about-102">
         <div className="about-103">
