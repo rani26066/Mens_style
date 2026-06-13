@@ -345,14 +345,15 @@ body {
 
 .about-106 {
   grid-column: span 2;
+  height: 160px;
 }
 
 .about-107 {
-  height: 170px;
+  height: 150px;
 }
 
 .about-108 {
-  height: 170px;
+  height: 160px;
 }
 
 /* Responsive */
