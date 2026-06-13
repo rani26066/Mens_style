@@ -32,8 +32,8 @@ import product30 from "./assets/Jeans/product30.jpeg";
 import product31 from "./assets/Jeans/product31.jpeg";
 import product32 from "./assets/Jeans/product32.jpeg";
 import sakthi from "./assets/sakthi.jpeg";
+import rani from "./assets/rani.jpeg";
 import kannams from "./assets/kannams.jpeg";
-
 function App() {
   // Products are added directly in code. No Add Product form/card is shown.
   const [products] = useState([
