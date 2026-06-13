@@ -27,6 +27,10 @@ import product25 from "./assets/Winter/product25.jpeg";
 import product26 from "./assets/Winter/product26.jpeg";
 import product27 from "./assets/Winter/product27.jpeg";
 import product28 from "./assets/Winter/product28.jpeg";
+import product29 from "./assets/Jeans/product29.jpeg";
+import product30 from "./assets/Jeans/product30.jpeg";
+import product31 from "./assets/Jeans/product31.jpeg";
+import product32 from "./assets/Jeans/product32.jpeg";
 function App() {
   // Products are added directly in code. No Add Product form/card is shown.
   const [products] = useState([
@@ -226,6 +230,34 @@ function App() {
       category: "Winter Cloths",
       image: product28
     },
+    {
+      id: 29,
+      name: "Jeans",
+      price: 500,
+      category: "Jeans",
+      image: product29
+    },
+    {
+      id: 30,
+      name: "Jeans",
+      price: 550,
+      category: "Jeans",
+      image: product30
+    },
+    {
+      id: 31,
+      name: "Jeans",
+      price: 600,
+      category: "Jeans",
+      image: product31
+    },
+    {
+      id: 32,
+      name: "Jeans",
+      price: 750,
+      category: "Jeans",
+      image: product32
+    },
   ]);
 
   const [cart, setCart] = useState([]);
@@ -309,6 +341,7 @@ function App() {
           <option value="SportsWear">Sportswear</option>
           <option value="Traditional Wear">Traditional Wear</option>
           <option value="Winter Cloths">Winter Cloths</option>
+          <option value="Jeans">Jeans</option>
         </select>
       </section>
 
@@ -354,6 +387,7 @@ function App() {
         </aside>
         
       </main>
+      
       <footer className="footer">
   <p>© 2026 SRK Shop | Created by Sakthi,Kannams,Rani</p>
 </footer>
